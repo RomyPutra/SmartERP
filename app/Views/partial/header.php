@@ -11,6 +11,6 @@
 <!-- Theme style -->
 <link rel="stylesheet" href="<?=base_url('dist/css/adminlte.min.css')?>">
 </head>
-<body class="dark-mode sidebar-mini layout-footer-fixed sidebar-collapse text-sm">
+<body class="dark-mode sidebar-mini layout-footer-fixed sidebar-collapse text-sm layout-fixed">
 <!-- Site wrapper -->
 <div class="wrapper">

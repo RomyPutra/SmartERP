@@ -74,58 +74,72 @@ class Dashboard extends BaseController
     }
     // $routes->get('/masterdata/department', 'Dashboard::department');
     public function department(){
+        
         echo view('masterdata/department');
     }
     // $routes->get('/masterdata/employee', 'Dashboard::employee');
     public function employee(){
+        
         echo view('masterdata/employee');
     }
     // $routes->get('/masterdata/employeegroupshift', 'Dashboard::employeegroupshift');
     public function employeegroupshift(){
+       
         echo view('masterdata/employeegroupshift');
     }
     // $routes->get('/masterdata/hpp', 'Dashboard::hpp');
     public function masterhpp(){
+        
         echo view('masterdata/hpp');
     }
     // $routes->get('/masterdata/indexretur', 'Dashboard::indexretur');
     public function indexretur(){
+        
         echo view('masterdata/indexretur');
     }
     // $routes->get('/masterdata/inventory', 'Dashboard::inventory');
     public function inventory(){
+        
         echo view('masterdata/inventory');
     }
     // $routes->get('/masterdata/machine', 'Dashboard::machine');
     public function machine(){
+        
         echo view('masterdata/machine');
     }
     // $routes->get('/masterdata/position', 'Dashboard::position');
     public function position(){
+       
         echo view('masterdata/position');
     }
     // $routes->get('/masterdata/price', 'Dashboard::price');
     public function price(){
+       
         echo view('masterdata/price');
     }
     // $routes->get('/masterdata/rate', 'Dashboard::rate');
     public function rate(){
+        
         echo view('masterdata/rate');
     }
     // $routes->get('/masterdata/salesperson', 'Dashboard::salesperson');
     public function salesperson(){
+        
         echo view('masterdata/salesperson');
     }
     // $routes->get('/masterdata/schedulepattern', 'Dashboard::schedulepattern');
     public function schedulepattern(){
+        
         echo view('masterdata/schedulepattern');
     }
     // $routes->get('/masterdata/section', 'Dashboard::section');
     public function section(){
+       
         echo view('masterdata/section');
     }
     // $routes->get('/masterdata/skemapayroll', 'Dashboard::skemapayroll');
     public function skemapayroll(){
+       
         echo view('masterdata/skemapayroll');
     }
     // $routes->get('/masterdata/source', 'Dashboard::source');
@@ -138,7 +152,8 @@ class Dashboard extends BaseController
     }
     // $routes->get('/masterdata/umk', 'Dashboard::umk');
     public function umk(){
-        echo view('hpp/umk');
+        
+        echo view('masterdata/umk');
     }
     // $routes->get('/masterdata/uom', 'Dashboard::uom');
     public function uom(){
@@ -278,6 +293,44 @@ class Dashboard extends BaseController
         echo view('production/stockwip');
     }
     
+    // $routes->get('/sales/invoice', 'Dashboard::invoice');
+    public function invoice(){
+        echo view('sales/invoice');
+    }
+    // $routes->get('/sales/returnbarcode', 'Dashboard::returnbarcode');
+    public function returnbarcode(){
+        echo view('sales/returnbarcode');
+    }
+    // $routes->get('/sales/returninventory', 'Dashboard::returninventory');
+    public function returninventory(){
+        echo view('sales/returninventory');
+    }
+    // $routes->get('/sales/salesorder', 'Dashboard::salesorder');
+    public function salesorder(){
+        echo view('sales/salesorder');
+    }
+    // $routes->get('/sales/shipping', 'Dashboard::shipping');
+    public function shipping(){
+        echo view('sales/shipping');
+    }
+    // $routes->get('/sales/shippingcashinventroy', 'Dashboard::shippingcashinventroy');
+    public function shippingcashinventroy(){
+        echo view('sales/shippingcashinventroy');
+    }
+    // $routes->get('/sales/shippinginventroy', 'Dashboard::shippinginventroy');
+    public function shippinginventroy(){
+        echo view('sales/shippinginventroy');
+    }
+    // $routes->get('/sales/sop', 'Dashboard::sop');
+    public function sop(){
+        echo view('sales/sop');
+    }
+    // $routes->get('/sales/sppb', 'Dashboard::stocsppbkwip');
+    public function sppb(){
+        echo view('sales/sppb');
+    }
+
+
     // $routes->get('/stockopname/stockopname', 'Dashboard::stockopname');
     public function stockopname(){
         echo view('stockopname/stockopname');
