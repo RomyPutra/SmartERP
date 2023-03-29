@@ -41,25 +41,25 @@
                <ul class="nav nav-treeview">
                   <li class="nav-item">
                      <a href="<?= base_url('payroll/fingerprint') ?>" class="nav-link">
-                        <i class="nav-icon fas fa-user"></i>
+                        <i class="far fa-circle nav-icon"></i>
                         <p>FingerPrint</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('payroll/absence') ?>" class="nav-link">
-                        <i class="nav-icon fas fa-user"></i>
+                        <i class="far fa-circle nav-icon"></i>
                         <p>Absence</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('payroll/monthlysalary') ?>" class="nav-link">
-                        <i class="nav-icon fas fa-user"></i>
+                        <i class="far fa-circle nav-icon"></i>
                         <p>Monthly Salary</p>
                      </a>
                   </li>
                   <li class="nav-item">
                      <a href="<?= base_url('payroll/daylysalary') ?>" class="nav-link">
-                        <i class="nav-icon fas fa-user"></i>
+                        <i class="far fa-circle nav-icon"></i>
                         <p>Dayly Salary</p>
                      </a>
                   </li>
