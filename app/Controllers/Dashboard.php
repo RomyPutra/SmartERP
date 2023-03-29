@@ -12,14 +12,13 @@ class Dashboard extends BaseController
         echo view('partial/footer');
     }
 
-    public function page(){
+    public function login(){
         $header['title']='SmartERP';
         echo view('page/login',$header);
     }
 
-    // public function fingerprint(){
-    //     $header['title']='SmartERP';
-    //     echo view('page/fingerprint',$header);
-    // }
+    public function fingerprint(){
+        echo view('payroll/fingerprint');
+    }
 
 }

@@ -30,9 +30,9 @@ $routes->set404Override();
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Dashboard::index');
-$routes->get('/page/login', 'Dashboard::page');
-$routes->get('/page/icon', 'Dashboard::page');
-// $routes->get('/page/fingerprint', 'Dashboard::fingerprint');
+$routes->get('/page/login', 'Dashboard::login');
+$routes->get('/payroll/fingerprint', 'Dashboard::fingerprint');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
