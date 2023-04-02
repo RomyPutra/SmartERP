@@ -68,88 +68,7 @@
       </div>
       <!-- Sidebar Menu -->
       <nav class="mt-2">
-         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-            <li class="nav-item">
-               <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-credit-card"></i>
-                  <p>
-                     Payroll
-                     <i class="fas fa-angle-left right"></i>
-                  </p>
-               </a>
-               <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                     <a href="<?= base_url('payroll/fingerprint') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>FingerPrint</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="<?= base_url('payroll/absence') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Absence</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="<?= base_url('payroll/monthlysalary') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Monthly Salary</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="<?= base_url('payroll/daylysalary') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Dayly Salary</p>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <li class="nav-item">
-               <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-fax"></i>
-                  <p>
-                    Accounting
-                     <i class="fas fa-angle-left right"></i>
-                  </p>
-               </a>
-               <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                     <a href="<?= base_url('accounting/neraca') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Neraca</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="<?= base_url('accounting/profitandloss') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Profit and Loss</p>
-                     </a>
-                  </li>
-                  <li class="nav-item">
-                     <a href="<?= base_url('accounting/mutasistock') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>Mutasi Stock</p>
-                     </a>
-                  </li>
-               </ul>
-            </li>
-            <li class="nav-item">
-               <a href="#" class="nav-link">
-                  <i class="nav-icon fas fa-balance-scale"></i>
-                  <p>
-                     HPP
-                     <i class="fas fa-angle-left right"></i>
-                  </p>
-               </a>
-               <ul class="nav nav-treeview">
-                  <li class="nav-item">
-                     <a href="<?= base_url('hpp/hpp') ?>" class="nav-link">
-                        <i class="far fa-circle nav-icon"></i>
-                        <p>HPP</p>
-                     </a>
-                  </li>
-               </ul>
-            </li>
+         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">         
             <li class="nav-item">
                <a href="#" class="nav-link">
                   <i class="nav-icon fas fa-database"></i>
@@ -306,6 +225,87 @@
                </ul>
             </li>
             <li class="nav-item">
+               <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-credit-card"></i>
+                  <p>
+                     Payroll
+                     <i class="fas fa-angle-left right"></i>
+                  </p>
+               </a>
+               <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                     <a href="<?= base_url('payroll/fingerprint') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>FingerPrint</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('payroll/absence') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Absence</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('payroll/monthlysalary') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Monthly Salary</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('payroll/daylysalary') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Dayly Salary</p>
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="nav-item">
+               <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-fax"></i>
+                  <p>
+                    Accounting
+                     <i class="fas fa-angle-left right"></i>
+                  </p>
+               </a>
+               <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                     <a href="<?= base_url('accounting/neraca') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Neraca</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('accounting/profitandloss') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Profit and Loss</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('accounting/mutasistock') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Mutasi Stock</p>
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="nav-item">
+               <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-balance-scale"></i>
+                  <p>
+                     HPP
+                     <i class="fas fa-angle-left right"></i>
+                  </p>
+               </a>
+               <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                     <a href="<?= base_url('hpp/hpp') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>HPP</p>
+                     </a>
+                  </li>
+               </ul>
+            </li>
+            <li class="nav-item">
                <a class="nav-link">
                   <i class="nav-icon fas fa-truck"></i>
                   <p>
@@ -332,37 +332,37 @@
                </a>
                <ul class="nav nav-treeview">
                   <li class="nav-item">
-                     <a href="<?= base_url('purchasing/purchasingrequisition') ?>" class="nav-link">
+                     <a href="<?= base_url('purchashing/purchasingrequisition') ?>" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Purchashing Requisition</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('purchasing/purchasingorder') ?>" class="nav-link">
+                     <a href="<?= base_url('purchashing/purchasingorder') ?>" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Purchashing Order</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('purchasing/materialreceivedvoucher') ?>" class="nav-link">
+                     <a href="<?= base_url('purchashing/materialreceivedvoucher') ?>" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Material Received Voucher</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('purchasing/purchasereturninventory') ?>" class="nav-link">
+                     <a href="<?= base_url('purchashing/purchasereturninventory') ?>" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Purchase Return Inventory</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('purchasing/mrvinventory') ?>" class="nav-link">
+                     <a href="<?= base_url('purchashing/mrvinventory') ?>" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>MRV Inventory</p>
                      </a>
                   </li>
                   <li class="nav-item">
-                     <a href="<?= base_url('purchasing/mrvpurchinvoice') ?>" class="nav-link">
+                     <a href="<?= base_url('purchashing/mrvpurchinvoice') ?>" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>MRV Purch Invoice</p>
                      </a>

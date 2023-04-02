@@ -186,7 +186,162 @@
 
       <!-- Sidebar Menu -->
       <nav class="mt-2">
-        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">         
+<li class="nav-item">
+               <a href="#" class="nav-link">
+                  <i class="nav-icon fas fa-database"></i>
+                  <p>
+                     Master Data
+                     <i class="right fas fa-angle-left"></i>
+                  </p>
+               </a>
+               <ul class="nav nav-treeview">
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/hpp') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>HPP</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/skemapayroll') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Skema Payroll</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/employee') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Employee</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/schedulepattern') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Schedule Pattern</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/employeegroupshift') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Employee Group Shift</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/benefit') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Benefit</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/indexretur') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Index Retur</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/wholesaleprice') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Wholesale Price</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/days') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Days</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/umk') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>UMK</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/company') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Company</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/department') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Department</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/position') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Position</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/section') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Section</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/source') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Source</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/warehouse') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Warehouse</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/type') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Type</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/category') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Category</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/machine') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Machine</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/salesperson') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Sales Person</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/price') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Price</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/inventory') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Inventory</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/uom') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>UOM</p>
+                     </a>
+                  </li>
+                  <li class="nav-item">
+                     <a href="<?= base_url('masterdata/rate') ?>" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Rate</p>
+                     </a>
+                  </li>
+               </ul>
+            </li>
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
           <li class="nav-item">
