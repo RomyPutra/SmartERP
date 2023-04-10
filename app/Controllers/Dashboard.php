@@ -1,5 +1,9 @@
 <?php
 namespace App\Controllers;
+use App\Models\SectionModel;
+use CodeIgniter\Config\Config;
+use CodeIgniter\Controller;
+
 class Dashboard extends BaseController
 {
     public function index()
@@ -134,8 +138,9 @@ class Dashboard extends BaseController
     }
     // $routes->get('/masterdata/section', 'Dashboard::section');
     public function section(){
-       
-        echo view('masterdata/section');
+        $tSection = new SectionModel();
+        $data['Getsection'] = $tSection->findAll();
+        echo view('masterdata/section',$data);
     }
     // $routes->get('/masterdata/skemapayroll', 'Dashboard::skemapayroll');
     public function skemapayroll(){

@@ -534,123 +534,19 @@
 												</tr>
 											</thead>
 											<tbody id="myTable">
-												<tr>
-													<td>1</td>
-													<td>S-00CT</td>
-													<td>Cutting</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>2</td>
-													<td>S-00EX</td>
-													<td>Extruder</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>3</td>
-													<td>S-CTEX</td>
-													<td>Cutting & Extruder</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>4</td>
-													<td>S-00DS</td>
-													<td>Design RND</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>5</td>
-													<td>S-DSPR</td>
-													<td>Design RND & Printing</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>6</td>
-													<td>S-00DM</td>
-													<td>Digital Marketing</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>7</td>
-													<td>S-00DR</td>
-													<td>Driver</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>8</td>
-													<td>S-FIAC</td>
-													<td>Finance & Accounting</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>8</td>
-													<td>S-00GD</td>
-													<td>Gudang</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>10</td>
-													<td>S-00GS</td>
-													<td>Gudang Sparepart</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>11</td>
-													<td>S-00HR</td>
-													<td>HRGA</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>12</td>
-													<td>S-00IT</td>
-													<td>IT</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
-												<tr>
-													<td>13</td>
-													<td>S-00MM</td>
-													<td>Marketing</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-													<td>sa</td>
-													<td>23-02-01 11:30:08 AM</td>
-												</tr>
+											<?php if(count($Getsection) > 0): ?>
+												<?php foreach ($Getsection as $dtsection): ?>
+													<tr>
+														<td><?php echo $dtsection['InternalID'];?></td>
+														<td><?php echo $dtsection['SectionID'];?></td>
+														<td><?php echo $dtsection['SectionName'];?></td>
+														<td><?php echo $dtsection['UserName'];?></td>
+														<td><?php echo $dtsection['DtRecord'];?></td>
+														<td><?php echo $dtsection['UserModified'];?></td>
+														<td><?php echo $dtsection['DtModified'];?></td>
+													</tr>
+												<?php endforeach; ?>
+											<?php endif; ?>
 											</tbody>
 											<tfoot></tfoot>
 										</table>
