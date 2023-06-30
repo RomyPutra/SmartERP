@@ -1,3 +1,6 @@
+<?php echo view('partial/header'); ?>
+<?php echo view('partial/top_menu'); ?>
+<?php echo view('partial/side_menu'); ?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -49,3 +52,4 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
+  <?php echo view('partial/footer'); ?>
