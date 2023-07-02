@@ -32,6 +32,14 @@ $routes->set404Override();
 $routes->get('/', 'Dashboard::index');
 $routes->get('/page/login', 'Dashboard::login');
 
+$routes->get('company', 'Company::index');
+$routes->get('company/create', 'Company::create');
+$routes->post('company/store', 'Company::store');
+$routes->post('company/update', 'Company::update');
+$routes->get('company/edit/(:any)', 'Company::edit/$1');
+$routes->post('company/update/(:any)', 'Company::update/$1');
+$routes->get('company/delete/(:any)', 'Company::delete/$1');
+
 // router folder payroll
 $routes->get('/payroll/fingerprint', 'Dashboard::fingerprint');
 $routes->get('/payroll/absence', 'Dashboard::absence');

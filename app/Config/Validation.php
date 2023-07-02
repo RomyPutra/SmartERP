@@ -41,4 +41,24 @@ class Validation extends BaseConfig
     // --------------------------------------------------------------------
     // Rules
     // --------------------------------------------------------------------
+
+    public $company = [
+        'CompanyName'       => 'required|is_unique[m_company.CompanyName]',
+        'UserName'          => 'required',
+        'CompanyID'         => 'required'
+    ];
+    
+    public $company_errors = [
+        'CompanyName' => [
+            'required'      => 'Nama perusahaan wajib diisi.',
+            'is_unique'     => 'Nama perusahaan sudah terdaftar'
+        ],
+        'UserName'    => [
+            'required'      => 'Nama pengguna wajib diisi.'
+        ],
+        'CompanyID'    => [
+            'required'      => 'Initial perusahaan wajib diisi.'
+        ]
+    ];
+    
 }
